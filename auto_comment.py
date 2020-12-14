@@ -50,7 +50,7 @@ def comment(hashtag):
 
     pic_href = [ele.get_attribute('href') for ele in href_found if '.com/p' in ele.get_attribute('href')]
 
-    comment = "Hi! I am a Bot."
+    comment = "Free Onlyfans in my bio!"
 
     for ele in pic_href:
         driver.get(ele)
@@ -69,8 +69,8 @@ def comment(hashtag):
         entry().send_keys(Keys.ENTER)
 
 
-login("") #add the credentials here as login(username,password)
-comment("hacking")
+login(ovo_chxppa,Ephraim1$) #add the credentials here as login(username,password)
+comment("rapmemes")
 
 
 
